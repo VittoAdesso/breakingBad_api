@@ -26,7 +26,7 @@ export const MainPage = () => {
     <div className="MainPage">
       <input type="text" 
       className="form-control" 
-      placeholder="Walter White"
+      placeholder="Write name of your Favorive 💡"
       onChange={(e) => filter(e.target.value)}/>
 
       <div className="row">
